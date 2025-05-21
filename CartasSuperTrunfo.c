@@ -52,7 +52,7 @@ int main() {
     //Calculo Super Poder Carta1
     float dendensidadepopu1_inverso = 1 / densidadepopu1;
     superpoder1 = (populacao1 + area1 + pib1 + pontosturisticos1 + pibpercapital1 + dendensidadepopu1_inverso);
-    printf("Super Poder: %.2f\n",superpoder1);
+    
    
     
 
@@ -85,7 +85,7 @@ int main() {
     //Calculo Super Poder Carta2
     float dendensidadepopu2_inverso = 1 / densidadepopu2;
     superpoder2 = (populacao2 + area2 + pib2 + pontosturisticos2 + pibpercapital2 + dendensidadepopu2_inverso);
-    printf("Super Poder: %.2f\n",superpoder2);
+    
     
 
     // Exibição dos dados da Carta1
@@ -99,7 +99,7 @@ int main() {
     printf("Número de Pontos Turísticos: %d\n", pontosturisticos1);
     printf("Densidade Populacional: %.2f hab/km²\n ", densidadepopu1 );
     printf("PIB per Capita: %.2f reais\n", pibpercapital1);
-    printf("Super Poder: %.2f\n",superpoder1);
+    
    
     // // Exibição dos dados da Carta2
     printf("\nCarta 2:\n");
@@ -112,7 +112,7 @@ int main() {
     printf("Número de Pontos Turísticos: %d\n", pontosturisticos2);
     printf("Densidade Populacional: %.2f hab/km²\n",densidadepopu2);
     printf("PIB per Capita: %.2f reais\n", pibpercapital2);
-    printf("Super Poder: %.2f\n",superpoder2);
+    
     
     //Comparações e Resultados das Cartas
     printf("\nComparações de Cartas:\n");
